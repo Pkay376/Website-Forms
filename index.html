@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website forms</title>
+    <link rel="stylesheet" href="./forms.css">
+</head>
+<body>
+    <div class="Contact"> 
+    <div class="container">
+    <div class="text">
+    <h1>Get started with us</h1>
+    <p>
+        Dear Client,please fill this registration form in order to be considered for the skin text process.</br> You will
+        receive a confirmation email after 48 hours to confirm your registration process.
+    </p>
+    </div>
+    </div>
+    </div>
+    
+   <form class="form">
+    <div>
+        Fields marked<span style="color: indianred;">*</span>are required
+    </div>
+    <p>
+    <label for="Fullname">Full Name</label>
+    <input type="text" id="Full Name" name="Full Name" placeholder="Enter full name"><span style="color: indianred;">*</span>>
+    </p>
+    <p>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email address" required></form>
+    </p>
+<p>
+   <label for="password">Password</label>
+    <input type="password " id="password" name="password" required>
+</p>
+<p>
+    <label for="password">Confirm password</label>
+    <input type="password" id="password" name="password" minlength="8" required>
+    </p>
+    <p>
+    <label for="dob">Date of birth</label>
+    <input type="date" id="dob" name="dob" min="2005-01-01" max="2023-01-01" required >
+    </p>
+    <p>
+    <input type="radio" name="Gender" id="Male" required>
+    <label for="Male">Male</label>
+    </p>
+    <p>
+     <input type="radio" id="Female" name="Gender" value="Female"required>
+     <label for="female">Female</label>
+     </p>
+     <p>
+     <label for="country">Country</label>
+    <select id="country" name="country" required>
+    <option>Select your country of residence</option>
+    <option>Kenya</option>
+    <option>Rwanda</option>
+    <option>Ghana</option>
+    <option>South Africa</option>
+    <option>Togo</option>
+    </select>
+</p>
+    <label for="Terms and Conditions">Terms and Conditions</label>
+    <input type="checkbox"></br>
+    </p>
+    <p>
+    <label for="message">Message</label></body>
+    <textarea placeholder="Leave your comment" name="message" rows="5" autofocus></textarea>
+    </p>
+    <input type="submit">
+
+   </form> 
+</body>
+</html>

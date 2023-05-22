@@ -1,0 +1,65 @@
+.Contact{
+    background-color: beige;
+    padding: 50px 0;
+}
+.Contact h1{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #ff0000;
+}
+.Contact p{
+    font-size: 1.5rem;
+}
+.form{
+    margin-top: 2rem;
+}
+.form input[type="text"],
+.form input[type="email"]
+{  padding: 1rem 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid rgb(8, 2, 2);
+    width: 40%;
+    border-radius: 2rem;
+}
+.form::placeholder{
+    color: bisque;
+}
+body{
+    background-color:rgb(241, 76, 104);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ input[type="submit"]{
+    display: block;
+    width: 30%;
+    padding: 2rem,1rem;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    border: currentColor;
+    height: 1rem;
+    text-align: center;
+    color: blueviolet;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+textarea{
+    width: 60%;
+}
+#country{
+    padding: 1rem 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid rgb(8, 2, 2);
+    width: 40%;
+    border-radius: 2rem;
+}
+radio{
+    color: azure;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media(min-width: 900px){
+
+}

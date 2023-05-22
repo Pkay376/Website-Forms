@@ -18,7 +18,7 @@
 {  padding: 1rem 2rem;
     margin-bottom: 2rem;
     border: 1px solid rgb(8, 2, 2);
-    width: 40%;
+    width: 80%;
     border-radius: 2rem;
 }
 .form::placeholder{
@@ -30,7 +30,7 @@ body{
 }
  input[type="submit"]{
     display: block;
-    width: 30%;
+    width:40%;
     padding: 2rem,1rem;
     box-sizing: border-box;
     border-radius: 1rem;
@@ -40,10 +40,11 @@ body{
     color: blueviolet;
     font-weight: bold;
     cursor: pointer;
+    justify-content: center;
 
 }
 textarea{
-    width: 60%;
+    width: 80%;
 }
 #country{
     padding: 1rem 2rem;
@@ -60,12 +61,14 @@ radio{
     margin: 0 auto;
 }
 label,input{
-    display: block
+    display: block;
 }
 form{
     display: block;
-    justify-content: center
+    justify-content: center;
 }
+
+
 
 @media (min-width; 900px) {
     .container{
@@ -80,4 +83,15 @@ form{
     padding: 4rem,2rem;
 }
 
+}
+.form input[type="text"],
+.form input[type="email"]{
+    width: 90%;
+}
+#country{
+    width: 90%;
+}
+textarea{
+    width: 90%;
+    padding: 2rem 1rem;
 }

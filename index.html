@@ -21,12 +21,9 @@
     </div>
     
    <form class="form"> 
-    <div>
-    Fields marked<span style="color: indianred;">*</span>are required
-</div>
 <div>
     <label for="Fullname">Full Name</label>
-    <input type="text" id="Full Name" name="Full Name" placeholder="Enter full name"><span style="color: indianred;">*</span>>
+    <input type="text" id="Full Name" name="Full Name" placeholder="Enter full name">
 </div>
 <div>
     <label for="email">Email</label>
@@ -34,15 +31,15 @@
 </div>
 <div>
 <label for="password">Password</label>
-<input type="password " id="password" name="password" required>
+<input type="password " id="password" pattern=".*[a-z](?=.*[A-Z]).{8,}" required>
 </div>
 <div>
 <label for="password">Confirm password</label>
-<input type="password" id="password" name="password" minlength="8" required>
+<input type="password" id="password" name="password" required>
 </div>
 <div>
 <label for="dob">Date of birth</label>
-<input type="date" id="dob" name="dob" min="2005-01-01" max="2023-01-01" required >
+<input type="date" id="dob" min="2005-01-01" max="2023-01-01" required >
 </p>
 <p>
 <input type="radio" name="Gender" id="Male" required>

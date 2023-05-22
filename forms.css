@@ -59,7 +59,25 @@ radio{
     width: 80%;
     margin: 0 auto;
 }
+label,input{
+    display: block
+}
+form{
+    display: block;
+    justify-content: center
+}
 
-@media(min-width: 900px){
+@media (min-width; 900px) {
+    .container{
+        width: 89%;
+    }
+.Contact{
+    padding: 0;
+}
+.contact .container{
+    background-color: rgb(216, 170, 110);
+    box-sizing: border-box;
+    padding: 4rem,2rem;
+}
 
 }
